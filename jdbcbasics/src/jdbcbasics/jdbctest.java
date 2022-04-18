@@ -18,7 +18,7 @@ public class jdbctest {
 		 connection = DriverManager.getConnection("jdbc:mysql://localhost/mydb","root","DEMO");
 		 statement = connection.createStatement();
 		
-	      int result = statement.executeUpdate("insert into account values(3,'Ravi','Kj',4000)");
+	      int result = statement.executeUpdate("insert into account values(4,'kavi','Kj',9000)");
 		System.out.println("Number of rows inserted"  + result);
 		
 		
